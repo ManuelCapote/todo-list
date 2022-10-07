@@ -1,0 +1,36 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 19px;
+  cursor: pointer;
+  margin-right: 10px;
+  height: 40px;
+  text-align: left;
+  gap: 20px;
+}
+
+.TodoItem .completeBtn {
+  border: none;
+  background-color: #fb8500;
+  border-radius: 3px;
+  height: fit-content;
+  padding: 5px;
+  color: #caf0f8;
+  font-size: 19px;
+  cursor: pointer;
+  margin-right: 0;
+}
+
+.TodoItem .close {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+  color: #caf0f8;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.TodoItem .completed {
+  text-decoration: line-through;
+}
